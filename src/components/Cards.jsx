@@ -11,7 +11,7 @@ const Cards = ({modelName , desc , link , imgNo}) => {
       onClick={handleClick}
     >
       <div className="image w-[160px] h-[150px] transition-all duration-500 bg-green-700 absolute top-[-40px] rounded-lg group-hover:translate-y-[1px] overflow-hidden">
-        <img src={`../public/${imgNo}.png`} alt="" />
+        <img src={`/${imgNo}.png`} alt="" />
       </div>
       <h1 className=" mt-[140px] dm-sans tracking-tight text-xl text-green-900">
         {modelName}
